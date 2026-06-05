@@ -1,64 +1,268 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="it">
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Catalogo</title>
-    <link rel="stylesheet" href="css/style-catalogo.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  </head>
-  <header class="main-header">
-		<div class="logo">
-			<a href="#">La se&ntilde;ora: Gracia Nasi</a>
-		</div>
-		<nav class="navbar">
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Progetto</a></li>
-				<li><a href="catalogo.html">Catalogo</a></li>
-				<li><a href="#">Persone</a></li>
-				<li><a href="#">Mappa</a></li>
-				<li><a href="#">Linea del tempo</a></li>
-			</ul>
-		</nav>
-	</header>
-  <body>
-    <h1>Hello, world!</h1>
-<div class="row row-cols-1 row-cols-md-2 g-4">
-  <div class="col">
-    <div class="card">
-      <img src="img/gracianasi.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
+    <title>Catalogo – La se&ntilde;ora: Gracia Nasi</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="main-header sticky-top bg-dark bg-opacity-75">
+        <div class="logo">
+            La se&ntilde;ora: Gracia Nasi
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#progetto">Progetto</a></li>
+                <li><a href="catalogo.html">Catalogo</a></li>
+                <li><a href="#">Persone</a></li>
+                <li><a href="#">Mappa</a></li>
+                <li><a href="#">Linea del tempo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container-fluid text-center">
+        <div class="row content pt-5">
+            <div class="col-sm-2 sidenav pt-5">
+                <ul class="breadcrumb"> <!--componente HowTo-->
+                    <li><a href="index.html">Home</a></li>
+                    <li>Catalogo</li>
+                </ul>
+                <p>Filtra gli items</p>
+                <div class="btn-group-vertical">
+                    <button type="button" class="btn btn-danger dropdown-toggle"
+                        data-bs-toggle="dropdown">Documenti</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Lettere</a></li>
+                        <li><a class="dropdown-item" href="#">Documenti notarili</a></li>
+                    </ul>
+                    <button type="button" class="btn btn-danger dropdown-toggle"
+                        data-bs-toggle="dropdown">Immagini</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Gracia</a></li>
+                        <li><a class="dropdown-item" href="#">Gracia "La Chica"</a></li>
+                    </ul>
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">Altri
+                        media</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Podcast</a></li>
+                        <li><a class="dropdown-item" href="#">Video</a></li>
+                    </ul>
+                </div>
+                <div class="mt-3">
+                    <a href="dati_gracianasi.html" target="_blank" class="btn btn-outline-danger">Metadati HTML</a>
+                </div>
+                <div class="mt-3">
+                    <a href="dati_gracianasi.csv" target="_blank" class="btn btn-outline-danger">Metadati CSV</a>
+                </div>
+                <div class="mt-3">
+                    <a href="dati_gracianasi.json" target="_blank" class="btn btn-outline-danger">Metadati JSON</a>
+
+                </div>
+            </div>
+            <div class="col-sm-10 text-left">
+                <main class="bg-body-tertiary pb-5 pt-5">
+                    <!-- items -->
+                    <section class="container-fluid">
+                        <div class="container">
+                            <h2>Catalogo</h2>
+                            <p>Clicca sulle immagini per aprire la scheda completa</p>
+                        </div>
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card text-start h-100">
+                                    <img src="img/lettera-Gracia.jpeg" class="card-img-top"
+                                        style="height: 500px; object-fit: cover;"
+                                        alt="Lettera di Gracia Nasi al duca Ercole II">
+                                    <div class="card-body">
+                                        <!-- Documento in https://muse.jhu.edu/article/944939/-->
+                                        <h6 class="card-title">Lettera di Beatriz de Luna (alias Gracia Nasi) al
+                                            duca
+                                            Ercole II d'Este</h6>
+                                        <p class="card-text">Autore: <a href="http://viaf.org/viaf/54950110"
+                                                target="_blank"><strong>Gracia
+                                                    Nasi<sup>VIAF</sup></strong></a></p>
+                                        <p>Data: 13 settembre 1549</p>
+                                        <p>Collocazione: <a href="https://asmo.cultura.gov.it/home"
+                                                target="_blank"><strong>Archivio di Stato
+                                                    di Modena</strong></a></p>
+                                        <a href="item.html" class="btn btn-outline-danger">Vedi scheda</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card text-start h-100">
+                                    <img src="img/biblia.jpeg" class="card-img-top"
+                                        style="height: 500px; object-fit: cover;" alt="Biblia de Ferrara">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Biblia de Ferrara</h6>
+                                        <p class="card-text">Autore: <a href="http://viaf.org/viaf/73893881"
+                                                target="_blank"><strong>Johan Radermacher<sup>VIAF</sup></strong></a>
+                                                    <a href="http://viaf.org/viaf/54950110" target="_blank"><strong>Gracia
+                                                Nasi<sup>VIAF</sup></strong></a>,
+                                            <a href="http://viaf.org/viaf/297691046" target="_blank"><strong>Yom Tob
+                                                Athias<sup>VIAF</sup></strong></a>, <a href="http://viaf.org/viaf/47822065"
+                                                target="_blank"><strong>Abraham
+                                                Usque<sup>VIAF</sup></strong></a>
+                                        </p>
+                                        <p>Data: 1553</p>
+                                        <p>Collocazione: <a href="https://www.bnportugal.gov.pt/"
+                                                target="_blank"><strong>National library of
+                                                    Portugal</strong></a></p>
+                                        <button type="button" class="btn btn-outline-danger">Vedi scheda</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card text-start h-100">
+                                    <img src="img/gracianasi2.jpg" class="card-img-top"
+                                        style="height: 500px; object-fit: cover;"
+                                        alt="Ritratto di Donna in rosso con bambino (Gracia Nasi?)">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Donna in rosso con bambino (Gracia Nasi?)</h6>
+                                        <p class="card-text">Autore: <a href="http://viaf.org/viaf/106963584"
+                                                target="_blank"><strong>Agnolo
+                                                    Bronzino<sup>VIAF</sup></strong></a></p>
+                                        <p>Data: 1540 circa</p>
+                                        <p>Collocazione: <a href="https://nga.gov" target="_blank"><strong>National
+                                                    Gallery of Art,
+                                                    Washington
+                                                    DC</strong></a></p>
+                                        <button type="button" class="btn btn-outline-danger">Vedi scheda</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card text-start h-100">
+                                    <img src="img/francobollo.jpg" class="card-img-top"
+                                        style="height: 400px; object-fit: cover;"
+                                        alt="Francobollo commemorativo Gracia Nasi">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Francobollo commemorativo dedicato dallo Stato di
+                                            Israele
+                                            a Gracia Nasi</h6>
+                                        <p class="card-text">Autore: n.d.</p>
+                                        <p>Data: 1991</p>
+                                        <p>Collocazione: n.d.</p>
+                                        <button type="button" class="btn btn-outline-danger">Vedi scheda</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card text-start h-100">
+                                    <img src="img/moneta.jpg" class="card-img-top"
+                                        style="height: 400px; object-fit: cover;" alt="Medaglia Gracia Nasi La Chica">
+                                    <div class="card-body">
+                                        <!-- https://collections.thejewishmuseum.org/collection/12997-medal-of-gracia-nasi-the-younger-->
+                                        <h6 class="card-title">Medaglia Gracia Nasi "La Chica"</h6>
+                                        <p class="card-text">Autore: <a href="http://viaf.org/viaf/288790463"
+                                                target="_blank"><strong>Pastorino
+                                                    di Giovan Michele de'
+                                                    Pastorini<sup>VIAF</sup></strong></a></p>
+                                        <p>Data: 1558</p>
+                                        <p>Collocazione: <a href="https://thejewishmuseum.org/"
+                                                target="_blank"><strong>Jewish Museum of New York</strong></a></p>
+                                        <button type="button" class="btn btn-outline-danger">Vedi scheda</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card text-start h-100">
+                                    <img src="img/lapide.jpg" class="card-img-top"
+                                        style="height: 400px; object-fit: cover;"
+                                        alt="Lapide commemorativa a Tiberiade">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Pietra commemorativa per i 500 anni di Gracia Nasi
+                                        </h6>
+                                        <p class="card-text"> Autore: n.d.</p>
+                                        <p>Data: 2011</p>
+                                        <p>Collocazione: <a href="https://www.geonames.org/293322/tiberias.html"
+                                                target="_blank"><strong>Tiberiade</strong></a></p>
+                                        <button type="button" class="btn btn-outline-danger">Vedi scheda</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Documenti sul sito https://www.filodiritto.com/lereditiera-il-sultano-e-il-duca-->
+                            <div class="col">
+                                <div class="card text-start h-100">
+                                    <img src="img/manoscritto1.jpg" class="card-img-top"
+                                        style="height: 200px; object-fit: cover;"
+                                        alt="Lettera di Rustem Pascià a Ercole II d'Este">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Traduzione della lettera del Gran Visir Rustem Pascià
+                                            a
+                                            Ercole II d'Este</h6>
+                                        <p class="card-text">Autore: <a href="http://viaf.org/viaf/65075592"
+                                                target="_blank"><strong>Ibrahim Bey<sup>VIAF</sup></strong></a></p>
+                                        <p>Data: 1558</p>
+                                        <p>Collocazione:<a href="https://asmo.cultura.gov.it/home"
+                                                target="_blank"><strong>Archivio di Stato
+                                                    di Modena</strong></a></p>
+                                        <button type="button" class="btn btn-outline-danger">Vedi scheda</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card text-start h-100">
+                                    <img src="img/manoscritto2.jpg" class="card-img-top"
+                                        style="height: 200px; object-fit: cover;"
+                                        alt="Documento di credito Gracia Benveniste">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Documento di credito Gracia Benveniste</h6>
+                                        <p class="card-text">Autore: Cancelleria estense</p>
+                                        <p>Data: n.d.</p>
+                                        <p>Collocazione: <a href="https://asmo.cultura.gov.it/home"
+                                                target="_blank"><strong>Archivio di Stato
+                                                    di Modena</strong></a></p>
+                                        <button type="button" class="btn btn-outline-danger">Vedi scheda</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card text-start h-100">
+                                    <img src="img/lettera-Brianda.jpg" class="card-img-top"
+                                        style="height: 200px; object-fit: cover;"
+                                        alt="Lettera di Brianda al duca Ercole II d'Este">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Lettera di Brianda al duca Ercole II d'Este</h6>
+                                        <p class="card-text">Autore: Brianda de Luna</p>
+                                        <p>Data: 1547</p>
+                                        <p>Collocazione:<a href="https://asmo.cultura.gov.it/home"
+                                                target="_blank"><strong>Archivio di Stato
+                                                    di Modena</strong></a></p>
+                                        <button type="button" class="btn btn-outline-danger">Vedi scheda</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card text-start h-100">
+                                    <img src="img/Consolasam_samuel_usque.jpg" class="card-img-top"
+                                        style="height: 500px; object-fit: cover;"
+                                        alt="Frontespizio Consolaçam ás tribulaçoens de Israel">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Frontespizio Consolaçam ás tribulaçoens de Israel
+                                        </h6>
+                                        <p class="card-text">Autore: <a href="http://viaf.org/viaf/78822952"
+                                                target="_blank"><strong>Samuel Usque<sup>VIAF</sup></strong></a></p>
+                                        <p>Data: 1553</p>
+                                        <p>Collocazione: non più esistente</p>
+                                        <button type="button" class="btn btn-outline-danger">Vedi scheda</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

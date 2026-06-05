@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettera di Gracia Nasi al duca Ercole II d'Este</title>
+                <author>Gracia Nasi</author>
+                <respStmt>
+                    <name>Raffaella Pelizzari</name>
+                    <resp>Codifica del testo</resp>
+                </respStmt>
+            </titleStmt>
+            <extent>221 KB in UTF-8</extent>
+            <publicationStmt>
+                <publisher>Università di Bologna</publisher>
+                <availability>Courtesy of Ministero della Cultura-Archivio di Stato di Modena, Prot. n. 1451 del 23 giugno 2023, class.: 28.10.13/20.1.25.</availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Formato digitale della lettera di Gracia Nasi al duca Ercole II del 13 settembre 1549</note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <settlement>Modena</settlement>
+                        <repository>Archivio di Stato</repository>
+                        <collection>ASE, Cancelleria, Carteggio di Particolari</collection>
+                        <idno>b. 749, fasc «Luny»</idno>
+                        <msName>Lettera di Beatriz de Luna al duca Ercole II d'Este dal Boschetto</msName>
+                    </msIdentifier>
+                    <head>Lettera di Beatriz de Luna al duca Ercole II d'Este dal Boschetto del 13 settembre 1549</head>
+                    <msContents>
+                        <p>Lettera autografa di Beatriz de Luna (Gracia Nasi) al duca Ercole II d'Este, datata 13 settembre 1549.</p>
+                    </msContents>
+                    <physDesc>
+                        <additions>
+                            <ab type="archivistNote" place="top-left" hand="#archivista1">
+                            1549 / 13 7bre
+                            </ab>
+                            <ab type="archivistNote" place="top-left" hand="#archivista2">
+                            Luny de
+                            </ab>
+                        </additions>
+                        <handDesc>
+                            <handNote xml:id="archivista1" script="cursiva" medium="ink">
+                            Nota archivistica con anno e data in cifre arabe
+                            </handNote>
+                            <handNote xml:id="archivista2" script="cursiva" medium="ink">
+                            Nota archivistica con il cognome del mittente, riferimento al fascicolo «Luny»
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="GN">
+                        <persName type="ebraico">Gracia Nasi</persName>
+                        <persName type="sposata">Gracia Mendes</persName>
+                        <persName type="battesimo">Beatriz de Luna</persName>
+                    </person>
+                    <person xml:id="EE">
+                        <persName>Ercole II d'Este</persName>
+                    </person>
+                    <person xml:id="TG">
+                        <persName>Thomaso Gomez</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <listPlace>
+                <place xml:id="Boschetto">
+                    <placeName>Boschetto di Ferrara</placeName>
+                </place>
+                <place xml:id="Ferrara">
+                    <placeName>Ferrara</placeName>
+                </place>
+            </listPlace>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="salute">
+                <head>
+                    <rs type="persona" ref="#EE">
+                        <abbr>Ill.mo</abbr>
+                        <expan>Illustrissimo</expan> et <abbr>Ex.mo</abbr>
+                        <expan>Excellentissimo</expan> Sor mio <abbr>osser.mo</abbr>
+                        <expan>Osservatissimo</expan>
+                    </rs>
+                </head>
+            </div>
+            <p>
+                <rs type="gruppo">Questi Portoghesi</rs> sonno venuti ad domandarmi aiuto per il commandamento rigoroso che
+                <rs type="persona" ref="#EE">
+                    <choice>
+                        <abbr>V.</abbr>
+                        <expan>Vostra</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Ex.a</abbr>
+                        <expan>Excellentissima</expan>
+                    </choice>
+                </rs> ha concesso che si debbia fare per mandarli via della <placeName ref="#Ferrara">città</placeName>. Per l'amore di nostro Signore Iddio supplico
+                <rs type="persona" ref="#EE">
+                    <choice>
+                        <abbr>V.</abbr>
+                        <expan>Vostra</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Ex.a</abbr>
+                        <expan>Excellentissima</expan>
+                    </choice>
+                </rs> 
+                voglia usar con loro della sua solita clemenzia et benignità, et che sia contenta far soprastar la grida per che senza quella si ubedirà detto commandamento.</p>
+            <p>Et voglia darli tempo et luogho dove si possano retirar securamente fino a tanto che la usi con loro di pietà, o veramente possano cercar in questo mezo, altro luogho dove andarsene. Et per questo effetto sarà il lattor della presente
+                <persName ref="#TG">Thomaso Gomez</persName>,
+                al quale prego humilmente 
+                <rs type="persona" ref="#EE">
+                    <choice>
+                        <abbr>Ex.a</abbr>
+                        <expan>Excellentissima</expan>
+                    </choice>
+                    <choice>
+                        <abbr>V.</abbr>
+                        <expan>Vostra</expan>
+                    </choice>
+                </rs> 
+                voglia udirlo et dargli risposta prima che la grida si facia.</p>
+            <div type="closer">
+                <p>Nostro Signore <rs type="persona" ref="#EE">la 
+                    <choice>
+                        <abbr>ill.ma</abbr>
+                        <expan>Illustrissima</expan>
+                    </choice>
+                     et 
+                    <choice>
+                        <abbr>excell.ma</abbr>
+                        <expan>Excellentissima</expan>
+                    </choice> persona di 
+                    <choice>
+                        <abbr>V.</abbr>
+                        <expan>Vostra</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Ex.cia</abbr>
+                        <expan>Excellentia</expan>
+                    </choice>
+                </rs> 
+                augmenti et prosperi.</p>
+            <dateline>Dil
+                <placeName ref="#Boschetto">Boschetto</placeName> 
+            addi 
+                <date value="1549-09-13">XIII setembre M D XL IX</date>
+            </dateline>
+            <p>umil oratriçe de<rs type="persona" ref="#EE">
+                <choice>
+                    <abbr>V.</abbr>
+                    <expan>Vostra</expan>
+                </choice>
+                <choice>
+                    <abbr>Ex.cia</abbr>
+                    <expan>Excellentia</expan>
+                </choice>
+            </rs>
+            <persName ref="#GN">Beatriz de Luna</persName>
+        </p>
+    </div>
+</body>
+</text>
+</TEI>
