@@ -14,7 +14,7 @@
    "Contributore": "Raffaella Pelizzari",
    "Copertura": "Bologna",
    "Diritti": "Open access",
-   "Descrizione": "Lettera scritta da Doña Gracia al duca Ercole II d'Este che illustra come la comunità dei conversos cercò attivamente il suo aiuto quando venne decretata la loro espulsione da Ferrara per la peste. Intervenendo a favore della popolazione portoghese di Nuovi Cristiani, Doña Gracia implorò il duca di ignorare il decreto e di concedere alla comunità dei conversos tempo sufficiente per lasciare la città.",
+   "Descrizione": "Lettera scritta da Doña Gracia al duca Ercole II d'Este che illustra come la comunità dei conversos cercò attivamente il suo aiuto quando venne decretata la loro espulsione da Ferrara per la peste.",
    "Immagine": "lettera-Gracia.jpeg"
  },
  {
@@ -32,7 +32,7 @@
    "Contributore": "Raffaella Pelizzari",
    "Copertura": "Bologna",
    "Diritti": "Public domain",
-   "Descrizione": "\"La Biblia en lengua española Traducida Palabra por Palabra de la Verdad Hebrayca por Muy Excelentes Letrados, Vista y Examinada por el Oficio de la Inquisicion, con Privilegio del Ylustrissimo Señor Duque de Ferrara\" (conosciuta come Biblia Española e detta anche Bibbia di Ferrara) viene stampata a Ferrara tra il 1551 e il 1553. Il frontespizio della Biblia presenta l’immagine di una nave alla deriva in un mare in tempesta, figura che rispecchia l’odissea degli esuli “prima di approdare nel porto placido e sicuro di Ferrara”. Su uno degli alberi della nave scossa dalle onde si nota una sfera armillare, che diventerà il marchio tipografico ebraico-ferrarese.",
+   "Descrizione": "La Biblia en lengua española stampata a Ferrara tra il 1551 e il 1553. Il frontespizio presenta l'immagine di una nave alla deriva, figura che rispecchia l'odissea degli esuli.\n",
    "Immagine": "Biblia.jpg"
  },
  {
@@ -50,7 +50,7 @@
    "Contributore": "Raffaella Pelizzari",
    "Copertura": "Bologna",
    "Diritti": "Public domain",
-   "Descrizione": "La donna ritratta nel dipinto molto probabilmente non è Gracia Nasi ma per molto tempo si è ritenuto che questo fosse l’unica immagine esistente della Senora. Anche se non ne abbiamo la certezza, è molto probabile che Gracia vestisse in questo modo e il bambino al suo fianco potrebbe essere il nipote e futuro genero Joseph Nasi, a cui era molto affezionata.",
+   "Descrizione": "La donna ritratta nel dipinto molto probabilmente non è Gracia Nasi ma per molto tempo si è ritenuto che questo fosse l’unica immagine esistente della Senora.",
    "Immagine": "Gracianasi2.jpg"
  },
  {
@@ -76,9 +76,9 @@
    "Titolo": "Medaglia Gracia Nasi \"La Chica\"",
    "Autore": "Pastorino di Giovan Michele de’Pastorini",
    "Destinatario": "",
-   "Tipologia": "",
+   "Tipologia": "Medaglia ",
    "Data": "1558",
-   "Luogo": "",
+   "Luogo": "Ferrara",
    "Collocazione": "Jewish Museum of New York",
    "Traduttore": "",
    "Versione digitale": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Gracianasimedal.jpg",
@@ -86,13 +86,13 @@
    "Contributore": "Raffaella Pelizzari",
    "Copertura": "Bologna",
    "Diritti": "Public domain",
-   "Descrizione": "Medaglia raffigurativa di Gracia Nasi “La Chica” (originariamente Beatriz Mendes Beneviste 1540-1596) giovane moglie di Samuel Nasi (c. 1522-1569?) e nipote di Gracia Nasi (c. 1510-1569). Questa medaglia uniface fu realizzata da Pastorino de' Pastorini nel 1557-58. A sinistra compare il nome della raffigurata in caratteri ebraici, a destra un'iscrizione latina: A[nno] AE[tas] XVIII (nell'anno del suo diciottesimo anno d’età).",
+   "Descrizione": "Medaglia raffigurativa di Gracia Nasi “La Chica”, il più antico esempio conosciuto con soggetto ebraico e iscrizione in ebraico.\n",
    "Immagine": "Moneta.jpg"
  },
  {
    "Identificativo": "item6",
    "Titolo": "Pietra commemorativa per i 500 anni di Gracia Nasi",
-   "Autore": "",
+   "Autore": "n.d.",
    "Destinatario": "",
    "Tipologia": "",
    "Data": "2011",
@@ -122,7 +122,7 @@
    "Contributore": "Raffaella Pelizzari",
    "Copertura": "Bologna",
    "Diritti": "Archivio di Stato di Modena",
-   "Descrizione": "Traduzione ufficiale in italiano della lettera del Gran Visir Rustem Pascià, redatta presso la cancelleria di Costantinopoli da Ibrahim Bey, “il supremo terdzimanno [traduttore] della Porta Sua Altezza del Gran Seniore etc”. In realtà dietro al nome islamico di Ibrahim si celava un polacco convertito, tale Johachim Strasz che in gioventù aveva studiato all’Università di Padova. La traduzione è elegante quanto il documento originale, sia per l’impiego del medesimo inchiostro nero cosparso di polvere d’oro, sia per il tratto svolazzante della grafia arricchita con l’inserimento di piccoli accenti a forma di mezzaluna.",
+   "Descrizione": "Traduzione ufficiale in italiano della lettera del Gran Visir Rustem Pascià, redatta presso la cancelleria di Costantinopoli da Ibrahim Bey.",
    "Immagine": "Manoscritto1.jpg"
  },
  {
@@ -140,7 +140,7 @@
    "Contributore": "Raffaella Pelizzari",
    "Copertura": "Bologna",
    "Diritti": "Archivio di Stato di Modena",
-   "Descrizione": "Memoria conservata nel fondo “Carteggio di Particolari” dell’Archivio di Stato di Modena che certifica che la giovane Beatrice (in ebraico Gracia Benvenisti) era creditrice del Duca per la considerevole somma di “scudi in oro 10.600 et più lo interesse a 6 per 100 de 4 ani in qua, et per causion de diti dinari, sono tante Joie [Gioielli] de sua Excellentia in Venetia depuzitate”.",
+   "Descrizione": "Memoria che certifica che Beatrice “La Chica” (in ebraico Gracia Benvenisti) era creditrice del Duca per la somma di 10.600 scudi d’oro.",
    "Immagine": "manoscritto2.jpg"
  },
  {
@@ -158,7 +158,7 @@
    "Contributore": "Raffaella Pelizzari",
    "Copertura": "Bologna",
    "Diritti": "Archivio di Stato di Modena",
-   "Descrizione": "Nell’imminenza dell’arrivo delle due sorelle de Luna a Ferrara, la sorella Brianda rivolse numerose suppliche a Ercole II d’Este. In questa lettera del novembre 1547  richiese  la mediazione del Duca: “Hora non havendo di chi me possi fidare, ho pigliato presuntione di scrivere, e dimandar gratia di volermi soccorrere, di quanto mi promise a beneficio di mia figlia, e mio, che farò certa mia sorella che sempre ho conosciuto li suoi fraudolenti accordi”.",
+   "Descrizione": "Lettera di Brianda de Luna al duca Ercole II d’Este nella quale richiede la sua mediazione nel contenzioso con la sorella, nell’imminenza della partenza da Venezia per Ferrara.",
    "Immagine": "lettera-Branda.jpg"
  },
  {
@@ -178,5 +178,23 @@
    "Diritti": "Public domain",
    "Descrizione": "Riproduzione del frontespizio della prima edizione del testo, andata perduta. Il testo racconta la storia delle persecuzioni subite dal popolo ebraico nel corso della sua storia, offrendo parole di consolazione e di speranza. Gracia Nasi, a cui l’opera è dedicata, è definita la sesta via per la consolazione di Israele.",
    "Immagine": "Consolacam_samuel_usque.jpg"
+ },
+ {
+   "Identificativo": "Item11",
+   "Titolo": "Podcast della conferenza \"Il denaro e le donne: Gracia Nasi, una finanziera del '500\"",
+   "Autore": "Prof. Alessandro Barbero",
+   "Destinatario": "",
+   "Tipologia": "podcast",
+   "Data": "2019",
+   "Luogo": "Torino",
+   "Collocazione": "Intesa Sanpaolo On Air",
+   "Traduttore": "",
+   "Versione digitale": "https://pod.link/1521869598",
+   "Editore": "Università di Bologna",
+   "Contributore": "Raffaella Pelizzari",
+   "Copertura": "Bologna",
+   "Diritti": "Intesa Sanpaolo 2019",
+   "Descrizione": "Podcast sulla figura di Gracia Nasi. Seconda conferenza del ciclo \"Tre lezioni di Alessandro Barbero\", organizzato da Intesa Sanpaolo e svoltosi nell'omonimo Grattacielo, a Torino.",
+   "Immagine": ""
  }
 ]
