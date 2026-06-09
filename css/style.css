@@ -33,7 +33,7 @@ a:hover {
 
 /* Serve a cambiare il modo in cui il browser calcola la larghezza (width) e l'altezza (height) degli elementi, */
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 /* Bottoni */
@@ -215,7 +215,6 @@ body, html {
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 16px;
   background-color: whitesmoke;
-  width: 35%px;
   margin: 20px;
   padding: 20px;
   text-align: left;
