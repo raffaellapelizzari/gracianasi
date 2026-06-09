@@ -152,7 +152,7 @@
             <dateline>Dil
                 <placeName ref="#Boschetto">Boschetto</placeName> 
             addi 
-                <date value="1549-09-13">XIII setembre M D XL IX</date>
+                <date when="1549-09-13">XIII setembre M D XL IX</date>
             </dateline>
             <p>umil oratriçe de<rs type="persona" ref="#EE">
                 <choice>

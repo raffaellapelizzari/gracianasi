@@ -4,9 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>La se&ntilde;ora: Gracia Nasi</title>
+    <title>La señora: Gracia Nasi</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -15,7 +14,7 @@
 <body>
     <header class="main-header sticky-top bg-dark bg-opacity-75">
         <div class="logo">
-            <a href="#">La se&ntilde;ora: Gracia Nasi</a>
+            La se&ntilde;ora: Gracia Nasi
         </div>
         <nav class="navbar">
             <ul>
@@ -28,6 +27,7 @@
             </ul>
         </nav>
     </header>
+
     <div class="container-fluid text-center" style="margin-top: 100px">
         <div class="row content">
             <div class="col-sm-12">
@@ -36,32 +36,36 @@
                     <li><a href="catalogo.html">Catalogo</a></li>
                     <li>Dati</li>
                 </ul>
-                <span class="ms-3 text-muted">Raccolta strutturata dei metadati con riconciliazione dei record di
-                    autorità</span>
+                <span class="ms-3 text-muted">Raccolta strutturata dei metadati con riconciliazione dei record di autorità</span>
+                <div class="mt-3 mb-2">
+                    <a href="dati_gracianasi.csv" download="dati_gracianasi.csv" class="btn btn-outline-danger btn-sm me-2">CSV</a>
+                    <a href="dati_gracianasi.json" download="dati_gracianasi.json" class="btn btn-outline-danger btn-sm">JSON</a>
+                </div>
             </div>
 
             <main class="container-fluid py-4">
                 <div class="table-responsive">
-<table class="table table-bordered table-hover table-dati table-sm align-middle" style="table-layout: fixed; width: 150%;">
+                    <table class="table table-bordered table-hover table-dati table-sm align-middle" style="table-layout: fixed; width: 170%;">
                         <colgroup>
-                            <col style="width: 3%">   <!-- # -->
-        <col style="width: 10%">  <!-- Titolo -->
-        <col style="width: 10%">  <!-- Autore -->
-        <col style="width: 8%">   <!-- Destinatario -->
-        <col style="width: 8%">   <!-- Tipologia -->
-        <col style="width: 5%">   <!-- Data -->
-        <col style="width: 6%">   <!-- Luogo -->
-        <col style="width: 10%">  <!-- Collocazione -->
-        <col style="width: 8%">   <!-- Traduttore -->
-        <col style="width: 5%">   <!-- Versione digitale -->
-        <col style="width: 6%">   <!-- Editore -->
-        <col style="width: 5%">   <!-- Copertura -->
-        <col style="width: 5%">   <!-- Diritti -->
-        <col style="width: 17%">  <!-- Descrizione -->
+                            <col style="width: 4%">   <!-- Identificativo -->
+                            <col style="width: 9%">   <!-- Titolo -->
+                            <col style="width: 9%">   <!-- Autore -->
+                            <col style="width: 7%">   <!-- Destinatario -->
+                            <col style="width: 7%">   <!-- Tipologia -->
+                            <col style="width: 4%">   <!-- Data -->
+                            <col style="width: 6%">   <!-- Luogo -->
+                            <col style="width: 9%">   <!-- Collocazione -->
+                            <col style="width: 7%">   <!-- Traduttore / Contributore -->
+                            <col style="width: 5%">   <!-- Versione digitale -->
+                            <col style="width: 5%">   <!-- Editore -->
+                            <col style="width: 5%">   <!-- Copertura -->
+                            <col style="width: 5%">   <!-- Diritti -->
+                            <col style="width: 14%">  <!-- Descrizione -->
+                            <col style="width: 5%">   <!-- Immagine -->
                         </colgroup>
                         <thead>
                             <tr>
-                                <th>#</th>
+                                <th>Identificativo</th>
                                 <th>Titolo</th>
                                 <th>Autore</th>
                                 <th>Destinatario</th>
@@ -75,140 +79,108 @@
                                 <th>Copertura</th>
                                 <th>Diritti</th>
                                 <th>Descrizione</th>
+                                <th>Immagine</th>
                             </tr>
                         </thead>
                         <tbody>
 
                             <!-- ① Lettera di Gracia Nasi -->
                             <tr>
-                                <td class="text-muted">1</td>
+                                <td class="text-muted">item1</td>
                                 <td><strong>Lettera di Gracia Nasi al duca Ercole II d'Este</strong></td>
                                 <td>
                                     Gracia Nasi
-                                    <a href="http://viaf.org/viaf/54950110" target="_blank"
-                                        class="authority-badge badge-viaf">VIAF</a>
+                                    <a href="http://viaf.org/viaf/54950110" target="_blank" class="authority-badge badge-viaf">VIAF</a>
                                 </td>
                                 <td>
                                     Ercole II d'Este
-                                    <a href="http://viaf.org/viaf/62395237" target="_blank"
-                                        class="authority-badge badge-viaf">VIAF</a>
+                                    <a href="http://viaf.org/viaf/62395237" target="_blank" class="authority-badge badge-viaf">VIAF</a>
                                 </td>
                                 <td><span class="tipo-badge">Lettera manoscritta</span></td>
                                 <td>13/09/1549</td>
                                 <td>
                                     Ferrara
-                                    <a href="https://www.geonames.org/6542120/ferrara.html" target="_blank"
-                                        class="authority-badge badge-geo">GeoNames</a>
+                                    <a href="https://www.geonames.org/6542120/ferrara.html" target="_blank" class="authority-badge badge-geo">GeoNames</a>
                                 </td>
-                                <td><span class="collocazione-text">ASMo, ASE, Cancelleria, Carteggio di
-                                        Particolari, b.
-                                        749,
-                                        fasc. «Luny»</span></td>
-                                <td>Raffaella Pelizzari</td>
-                                <td><a href="https://muse.jhu.edu/article/944939/--" target="_blank"
-                                        class="authority-badge badge-img">MUSE</a></td>
+                                <td><span class="collocazione-text">ASMo, ASE, Cancelleria, Carteggio di Particolari, b. 749, fasc. «Luny»</span></td>
+                                <td>Raffaella Pelizzari (contributore)</td>
+                                <td><a href="https://muse.jhu.edu/article/944939/--" target="_blank" class="authority-badge badge-img">MUSE</a></td>
                                 <td>Università di Bologna</td>
                                 <td>
                                     Bologna
-                                    <a href="https://sws.geonames.org/3181928/" target="_blank"
-                                        class="authority-badge badge-geo">GeoNames</a>
+                                    <a href="https://sws.geonames.org/3181928/" target="_blank" class="authority-badge badge-geo">GeoNames</a>
                                 </td>
                                 <td><span class="tipo-badge">Open access</span></td>
-                                <td><span class="desc-text">Lettera scritta da Doña Gracia al duca Ercole II d'Este
-                                        che
-                                        illustra
-                                        come la comunità dei conversos cercò attivamente il suo aiuto quando venne
-                                        decretata la
-                                        loro espulsione da Ferrara per la peste.</span></td>
+                                <td><span class="desc-text">Lettera scritta da Doña Gracia al duca Ercole II d'Este che illustra come la comunità dei conversos cercò attivamente il suo aiuto quando venne decretata la loro espulsione da Ferrara per la peste.</span></td>
+                                <td><img src="img/lettera-Gracia.jpeg" class="img-fluid" alt="Lettera di Gracia Nasi"></td>
                             </tr>
 
                             <!-- ② Biblia de Ferrara -->
                             <tr>
-                                <td class="text-muted">2</td>
+                                <td class="text-muted">item2</td>
                                 <td><strong>Biblia de Ferrara</strong></td>
                                 <td>
                                     Johan Radermacher
-                                    <a href="http://viaf.org/viaf/64013706" target="_blank"
-                                        class="authority-badge badge-viaf">VIAF</a><br>
+                                    <a href="http://viaf.org/viaf/64013706" target="_blank" class="authority-badge badge-viaf">VIAF</a><br>
                                     Gracia Nasi
-                                    <a href="http://viaf.org/viaf/54950110" target="_blank"
-                                        class="authority-badge badge-viaf">VIAF</a><br>
+                                    <a href="http://viaf.org/viaf/54950110" target="_blank" class="authority-badge badge-viaf">VIAF</a><br>
                                     Yom Tob Athias
-                                    <a href="http://viaf.org/viaf/316747405" target="_blank"
-                                        class="authority-badge badge-viaf">VIAF</a><br>
+                                    <a href="http://viaf.org/viaf/316747405" target="_blank" class="authority-badge badge-viaf">VIAF</a><br>
                                     Abraham Usque
-                                    <a href="http://viaf.org/viaf/36927052" target="_blank"
-                                        class="authority-badge badge-viaf">VIAF</a>
+                                    <a href="http://viaf.org/viaf/36927052" target="_blank" class="authority-badge badge-viaf">VIAF</a>
                                 </td>
                                 <td>—</td>
                                 <td><span class="tipo-badge">Frontespizio di libro a stampa</span></td>
                                 <td>1553</td>
                                 <td>
                                     Ferrara
-                                    <a href="https://www.geonames.org/6542120/ferrara.html" target="_blank"
-                                        class="authority-badge badge-geo">GeoNames</a>
+                                    <a href="https://www.geonames.org/6542120/ferrara.html" target="_blank" class="authority-badge badge-geo">GeoNames</a>
                                 </td>
                                 <td><span class="collocazione-text">National Library of Portugal</span></td>
                                 <td>
                                     Abraham Usque (traduttore)
-                                    <a href="http://viaf.org/viaf/36927052" target="_blank"
-                                        class="authority-badge badge-viaf">VIAF</a>
-                                        Raffaella Pelizzari (contributore)
+                                    <a href="http://viaf.org/viaf/36927052" target="_blank" class="authority-badge badge-viaf">VIAF</a><br>
+                                    Raffaella Pelizzari (contributore)
                                 </td>
-                                <td><a href="https://www.europeana.eu/it/item/10501/bib_rnod_37832" target="_blank"
-                                        class="authority-badge badge-europeana">Europeana</a></td>
+                                <td><a href="https://www.europeana.eu/it/item/10501/bib_rnod_37832" target="_blank" class="authority-badge badge-europeana">Europeana</a></td>
                                 <td>Università di Bologna</td>
                                 <td>
                                     Bologna
-                                    <a href="https://sws.geonames.org/3181928/" target="_blank"
-                                        class="authority-badge badge-geo">GeoNames</a>
+                                    <a href="https://sws.geonames.org/3181928/" target="_blank" class="authority-badge badge-geo">GeoNames</a>
                                 </td>
                                 <td><span class="tipo-badge">Public domain</span></td>
-                                <td><span class="desc-text">La Biblia en lengua española stampata a Ferrara tra il
-                                        1551
-                                        e il
-                                        1553. Il frontespizio presenta l'immagine di una nave alla deriva, figura
-                                        che
-                                        rispecchia
-                                        l'odissea degli esuli.</span></td>
+                                <td><span class="desc-text">La Biblia en lengua española stampata a Ferrara tra il 1551 e il 1553. Il frontespizio presenta l'immagine di una nave alla deriva, figura che rispecchia l'odissea degli esuli.</span></td>
+                                <td><img src="img/Biblia.jpg" class="img-fluid" alt="Biblia de Ferrara"></td>
                             </tr>
 
                             <!-- ③ Donna in rosso con bambino -->
                             <tr>
-                                <td class="text-muted">3</td>
+                                <td class="text-muted">item3</td>
                                 <td><strong>Donna in rosso con bambino (Gracia Nasi?)</strong></td>
                                 <td>
                                     Agnolo Bronzino
-                                    <a href="http://viaf.org/viaf/51697919" target="_blank"
-                                        class="authority-badge badge-viaf">VIAF</a>
+                                    <a href="http://viaf.org/viaf/51697919" target="_blank" class="authority-badge badge-viaf">VIAF</a>
                                 </td>
                                 <td>—</td>
                                 <td><span class="tipo-badge">Dipinto ad olio</span></td>
                                 <td>1540 circa</td>
                                 <td>—</td>
-                                <td><span class="collocazione-text">National Gallery of Art, Washington DC</span>
-                                </td>
-                                <td>Raffaella Pelizzari</td>
-                                <td><a href="https://upload.wikimedia.org/wikipedia/commons/e/ec/Agnolo_Bronzino_-_A_Young_Woman_and_Her_Little_Boy_-_Google_Art_Project.jpg"
-                                        target="_blank" class="authority-badge badge-wiki">Wikipedia</a></td>
+                                <td><span class="collocazione-text">National Gallery of Art, Washington DC</span></td>
+                                <td>Raffaella Pelizzari (contributore)</td>
+                                <td><a href="https://upload.wikimedia.org/wikipedia/commons/e/ec/Agnolo_Bronzino_-_A_Young_Woman_and_Her_Little_Boy_-_Google_Art_Project.jpg" target="_blank" class="authority-badge badge-wiki">Wikipedia</a></td>
                                 <td>Università di Bologna</td>
                                 <td>
                                     Bologna
-                                    <a href="https://sws.geonames.org/3181928/" target="_blank"
-                                        class="authority-badge badge-geo">GeoNames</a>
+                                    <a href="https://sws.geonames.org/3181928/" target="_blank" class="authority-badge badge-geo">GeoNames</a>
                                 </td>
                                 <td><span class="tipo-badge">Public domain</span></td>
-                                <td><span class="desc-text">La donna ritratta molto probabilmente non è Gracia Nasi,
-                                        ma
-                                        per
-                                        lungo tempo si è ritenuto fosse l'unica immagine esistente della
-                                        Senora.</span>
-                                </td>
+                                <td><span class="desc-text">La donna ritratta nel dipinto molto probabilmente non è Gracia Nasi ma per molto tempo si è ritenuto che questo fosse l'unica immagine esistente della Senora.</span></td>
+                                <td><img src="img/Gracianasi2.jpg" class="img-fluid" alt="Donna in rosso con bambino"></td>
                             </tr>
 
                             <!-- ④ Francobollo -->
                             <tr>
-                                <td class="text-muted">4</td>
+                                <td class="text-muted">item4</td>
                                 <td><strong>Francobollo commemorativo Gracia Nasi</strong></td>
                                 <td>Stato di Israele</td>
                                 <td>—</td>
@@ -216,242 +188,223 @@
                                 <td>1991</td>
                                 <td>
                                     Israele
-                                    <a href="https://www.geonames.org/294640/state-of-israel.html" target="_blank"
-                                        class="authority-badge badge-geo">GeoNames</a>
+                                    <a href="https://www.geonames.org/294640/state-of-israel.html" target="_blank" class="authority-badge badge-geo">GeoNames</a>
                                 </td>
                                 <td>—</td>
-                                <td>Raffaella Pelizzari</td>
-                                <td><a href="https://images.forwardcdn.com/image/675x/center/images/cropped/b-51612dona-gracianasi-1425722679.jpg"
-                                        target="_blank" class="authority-badge badge-img">link</a></td>
+                                <td>Raffaella Pelizzari (contributore)</td>
+                                <td><a href="https://images.forwardcdn.com/image/675x/center/images/cropped/b-51612dona-gracianasi-1425722679.jpg" target="_blank" class="authority-badge badge-img">link</a></td>
                                 <td>Università di Bologna</td>
                                 <td>
                                     Bologna
-                                    <a href="https://sws.geonames.org/3181928/" target="_blank"
-                                        class="authority-badge badge-geo">GeoNames</a>
+                                    <a href="https://sws.geonames.org/3181928/" target="_blank" class="authority-badge badge-geo">GeoNames</a>
                                 </td>
                                 <td><span class="tipo-badge">Public domain</span></td>
-                                <td><span class="desc-text">Francobollo commemorativo emesso dallo stato di Israele
-                                        nel
-                                        1991.</span></td>
+                                <td><span class="desc-text">Francobollo commemorativo emesso dallo stato di Israele nel 1991.</span></td>
+                                <td><img src="img/Francobollo.jpg" class="img-fluid" alt="Francobollo commemorativo Gracia Nasi"></td>
                             </tr>
 
                             <!-- ⑤ Medaglia -->
                             <tr>
-                                <td class="text-muted">5</td>
+                                <td class="text-muted">item5</td>
                                 <td><strong>Medaglia Gracia Nasi «La Chica»</strong></td>
                                 <td>
                                     Pastorino di Giovan Michele de' Pastorini
-                                    <a href="http://viaf.org/viaf/95822716" target="_blank"
-                                        class="authority-badge badge-viaf">VIAF</a>
+                                    <a href="http://viaf.org/viaf/95822716" target="_blank" class="authority-badge badge-viaf">VIAF</a>
                                 </td>
                                 <td>—</td>
                                 <td><span class="tipo-badge">Medaglia</span></td>
                                 <td>1558</td>
-                                <td>—</td>
+                                <td>
+                                    Ferrara
+                                    <a href="https://www.geonames.org/6542120/ferrara.html" target="_blank" class="authority-badge badge-geo">GeoNames</a>
+                                </td>
                                 <td><span class="collocazione-text">Jewish Museum of New York</span></td>
-                                <td>Raffaella Pelizzari</td>
-                                <td><a href="https://upload.wikimedia.org/wikipedia/commons/9/9c/Gracianasimedal.jpg"
-                                        target="_blank" class="authority-badge badge-wiki">Wikipedia</a></td>
+                                <td>Raffaella Pelizzari (contributore)</td>
+                                <td><a href="https://upload.wikimedia.org/wikipedia/commons/9/9c/Gracianasimedal.jpg" target="_blank" class="authority-badge badge-wiki">Wikipedia</a></td>
                                 <td>Università di Bologna</td>
                                 <td>
                                     Bologna
-                                    <a href="https://sws.geonames.org/3181928/" target="_blank"
-                                        class="authority-badge badge-geo">GeoNames</a>
+                                    <a href="https://sws.geonames.org/3181928/" target="_blank" class="authority-badge badge-geo">GeoNames</a>
                                 </td>
                                 <td><span class="tipo-badge">Public domain</span></td>
-                                <td><span class="desc-text">Medaglia uniface raffigurante Gracia Nasi «La Chica». Il
-                                        più
-                                        antico
-                                        esempio conosciuto con soggetto ebraico e iscrizione in ebraico.</span></td>
+                                <td><span class="desc-text">Medaglia raffigurativa di Gracia Nasi «La Chica», il più antico esempio conosciuto con soggetto ebraico e iscrizione in ebraico.</span></td>
+                                <td><img src="img/Moneta.jpg" class="img-fluid" alt="Medaglia Gracia Nasi La Chica"></td>
                             </tr>
 
                             <!-- ⑥ Pietra commemorativa -->
                             <tr>
-                                <td class="text-muted">6</td>
+                                <td class="text-muted">item6</td>
                                 <td><strong>Pietra commemorativa per i 500 anni di Gracia Nasi</strong></td>
+                                <td>n.d.</td>
                                 <td>—</td>
                                 <td>—</td>
-                                <td><span class="tipo-badge">Fotografia</span></td>
                                 <td>2011</td>
                                 <td>
                                     Tiberiade
-                                    <a href="https://www.geonames.org/293725/tiberias.html" target="_blank"
-                                        class="authority-badge badge-geo">GeoNames</a>
+                                    <a href="https://www.geonames.org/293725/tiberias.html" target="_blank" class="authority-badge badge-geo">GeoNames</a>
                                 </td>
                                 <td><span class="collocazione-text">Museo Dona Gracia, Tiberiade</span></td>
-                                <td>Raffaella Pelizzari</td>
-                                <td><a href="https://upload.wikimedia.org/wikipedia/commons/9/9e/PikiWiki_Israel_11851_dona_gracia_lookout_tiberias.jpg"
-                                        target="_blank" class="authority-badge badge-wiki">Wikipedia</a></td>
+                                <td>Raffaella Pelizzari (contributore)</td>
+                                <td><a href="https://upload.wikimedia.org/wikipedia/commons/9/9e/PikiWiki_Israel_11851_dona_gracia_lookout_tiberias.jpg" target="_blank" class="authority-badge badge-wiki">Wikipedia</a></td>
                                 <td>Università di Bologna</td>
                                 <td>
                                     Bologna
-                                    <a href="https://sws.geonames.org/3181928/" target="_blank"
-                                        class="authority-badge badge-geo">GeoNames</a>
+                                    <a href="https://sws.geonames.org/3181928/" target="_blank" class="authority-badge badge-geo">GeoNames</a>
                                 </td>
                                 <td><span class="tipo-badge">Creative Commons</span></td>
-                                <td><span class="desc-text">Pietra e targa commemorative per i 500 anni di Gracia
-                                        Nasi
-                                        davanti
-                                        al museo a lei dedicato a Tiberiade (Israele).</span></td>
+                                <td><span class="desc-text">Pietra e targa commemorative per i 500 anni di Gracia Nasi davanti al museo a lei dedicato a Tiberiade (Israele).</span></td>
+                                <td><img src="img/lapide.jpg" class="img-fluid" alt="Pietra commemorativa Gracia Nasi"></td>
                             </tr>
 
                             <!-- ⑦ Lettera Gran Visir -->
                             <tr>
-                                <td class="text-muted">7</td>
-                                <td><strong>Traduzione della lettera del Gran Visir Rustem Pascià a Ercole II
-                                        d'Este</strong>
-                                </td>
+                                <td class="text-muted">item7</td>
+                                <td><strong>Traduzione della lettera del Gran Visir Rustem Pascià a Ercole II d'Este</strong></td>
                                 <td>
                                     Gran Visir Rustem Pascià
-                                    <a href="http://viaf.org/viaf/69728043" target="_blank"
-                                        class="authority-badge badge-viaf">VIAF</a>
+                                    <a href="http://viaf.org/viaf/69728043" target="_blank" class="authority-badge badge-viaf">VIAF</a>
                                 </td>
                                 <td>
                                     Ercole II d'Este
-                                    <a href="http://viaf.org/viaf/62395237" target="_blank"
-                                        class="authority-badge badge-viaf">VIAF</a>
+                                    <a href="http://viaf.org/viaf/62395237" target="_blank" class="authority-badge badge-viaf">VIAF</a>
                                 </td>
                                 <td><span class="tipo-badge">Lettera manoscritta</span></td>
-                                <td>1612</td>
+                                <td>1558</td>
                                 <td>
                                     Costantinopoli
-                                    <a href="https://www.geonames.org/745044/istanbul.html" target="_blank"
-                                        class="authority-badge badge-geo">GeoNames</a>
+                                    <a href="https://www.geonames.org/745044/istanbul.html" target="_blank" class="authority-badge badge-geo">GeoNames</a>
                                 </td>
-                                <td><span class="collocazione-text">ASMo, ASE, Cancelleria, Carteggio Principi
-                                        Esteri,
-                                        b. 1612,
-                                        fasc. Turchia</span></td>
-                                <td>Ibrahim Bey (traduttore)
+                                <td><span class="collocazione-text">ASMo, ASE, Cancelleria, Carteggio Principi Esteri, b. 1612, fasc. Turchia</span></td>
+                                <td>
+                                    Ibrahim Bey (traduttore)<br>
                                     Raffaella Pelizzari (contributore)
                                 </td>
-                                <td><a href="https://www.filodiritto.com/sites/default/files/styles/xl/public/2021-04/foto_10_asmo_ase_cancelleria_carteggio_di_principi_esteri_b._1612_fasc._turchia_particolare_della_traduzione_di_ibrahim_bey.jpg?itok=sgHSL3Pb"
-                                        target="_blank" class="authority-badge badge-img">link</a></td>
+                                <td><a href="https://www.filodiritto.com/sites/default/files/styles/xl/public/2021-04/foto_10_asmo_ase_cancelleria_carteggio_di_principi_esteri_b._1612_fasc._turchia_particolare_della_traduzione_di_ibrahim_bey.jpg?itok=sgHSL3Pb" target="_blank" class="authority-badge badge-img">link</a></td>
                                 <td>Università di Bologna</td>
                                 <td>
                                     Bologna
-                                    <a href="https://sws.geonames.org/3181928/" target="_blank"
-                                        class="authority-badge badge-geo">GeoNames</a>
+                                    <a href="https://sws.geonames.org/3181928/" target="_blank" class="authority-badge badge-geo">GeoNames</a>
                                 </td>
                                 <td><span class="tipo-badge">Archivio di Stato di Modena</span></td>
-                                <td><span class="desc-text">Traduzione ufficiale in italiano della lettera del Gran
-                                        Visir Rustem
-                                        Pascià, redatta a Costantinopoli da Ibrahim Bey.</span></td>
+                                <td><span class="desc-text">Traduzione ufficiale in italiano della lettera del Gran Visir Rustem Pascià, redatta presso la cancelleria di Costantinopoli da Ibrahim Bey.</span></td>
+                                <td><img src="img/Manoscritto1.jpg" class="img-fluid" alt="Lettera Gran Visir Rustem Pascià"></td>
                             </tr>
 
                             <!-- ⑧ Documento di credito -->
                             <tr>
-                                <td class="text-muted">8</td>
+                                <td class="text-muted">item8</td>
                                 <td><strong>Documento di credito Gracia Benveniste</strong></td>
                                 <td>Cancelleria estense</td>
                                 <td>—</td>
-                                <td><span class="tipo-badge">Documento notarile</span></td>
-                                <td>—</td>
+                                <td><span class="tipo-badge">Documento notarile: lettera di credito</span></td>
+                                <td>N.d.</td>
                                 <td>
                                     Ferrara
-                                    <a href="https://www.geonames.org/6542120/ferrara.html" target="_blank"
-                                        class="authority-badge badge-geo">GeoNames</a>
+                                    <a href="https://www.geonames.org/6542120/ferrara.html" target="_blank" class="authority-badge badge-geo">GeoNames</a>
                                 </td>
-                                <td><span class="collocazione-text">ASMo, ASE, Cancelleria, Carteggi di Particolari,
-                                        b.
-                                        131,
-                                        fasc. Benvenisti</span></td>
-                                <td>Raffaella Pelizzari</td>
-                                <td><a href="https://www.filodiritto.com/sites/default/files/styles/lg/public/2021-04/foto_11_asmo_ase_cancelleria_carteggi_di_particolari_b._131_fasc._benvenisti.jpg?itok=S14jvWRD"
-                                        target="_blank" class="authority-badge badge-img">link</a></td>
+                                <td><span class="collocazione-text">ASMo, ASE, Cancelleria, Carteggi di Particolari, b. 131, fasc. Benvenisti</span></td>
+                                <td>Raffaella Pelizzari (contributore)</td>
+                                <td><a href="https://www.filodiritto.com/sites/default/files/styles/lg/public/2021-04/foto_11_asmo_ase_cancelleria_carteggi_di_particolari_b._131_fasc._benvenisti.jpg?itok=S14jvWRD" target="_blank" class="authority-badge badge-img">link</a></td>
                                 <td>Università di Bologna</td>
                                 <td>
                                     Bologna
-                                    <a href="https://sws.geonames.org/3181928/" target="_blank"
-                                        class="authority-badge badge-geo">GeoNames</a>
+                                    <a href="https://sws.geonames.org/3181928/" target="_blank" class="authority-badge badge-geo">GeoNames</a>
                                 </td>
                                 <td><span class="tipo-badge">Archivio di Stato di Modena</span></td>
-                                <td><span class="desc-text">Memoria che certifica che Beatrice (Gracia Benvenisti)
-                                        era
-                                        creditrice del Duca per la somma di scudi in oro 10.600.</span></td>
+                                <td><span class="desc-text">Memoria che certifica che Beatrice «La Chica» (in ebraico Gracia Benvenisti) era creditrice del Duca per la somma di 10.600 scudi d'oro.</span></td>
+                                <td><img src="img/manoscritto2.jpg" class="img-fluid" alt="Documento di credito Gracia Benveniste"></td>
                             </tr>
 
                             <!-- ⑨ Lettera di Brianda -->
                             <tr>
-                                <td class="text-muted">9</td>
+                                <td class="text-muted">item9</td>
                                 <td><strong>Lettera di Brianda al duca Ercole II d'Este</strong></td>
                                 <td>
                                     Brianda de Luna
-                                    <a href="http://viaf.org/viaf/56629945" target="_blank"
-                                        class="authority-badge badge-viaf">VIAF</a>
+                                    <a href="http://viaf.org/viaf/56629945" target="_blank" class="authority-badge badge-viaf">VIAF</a>
                                 </td>
                                 <td>
                                     Ercole II d'Este
-                                    <a href="http://viaf.org/viaf/62395237" target="_blank"
-                                        class="authority-badge badge-viaf">VIAF</a>
+                                    <a href="http://viaf.org/viaf/62395237" target="_blank" class="authority-badge badge-viaf">VIAF</a>
                                 </td>
                                 <td><span class="tipo-badge">Lettera manoscritta</span></td>
                                 <td>1547</td>
                                 <td>
                                     Venezia
-                                    <a href="https://www.geonames.org/3164603/venice.html" target="_blank"
-                                        class="authority-badge badge-geo">GeoNames</a>
+                                    <a href="https://www.geonames.org/3164603/venice.html" target="_blank" class="authority-badge badge-geo">GeoNames</a>
                                 </td>
-                                <td><span class="collocazione-text">ASMo, ASE, Carteggio di Particolari, b.
-                                        747</span>
-                                </td>
-                                <td>Raffaella Pelizzari</td>
-                                <td><a href="https://www.filodiritto.com/sites/default/files/styles/lg/public/2021-04/foto_3_asmo_ase_carteggio_di_particolari_b._747_particolare_di_una_lettera_di_brianda_de_luna_del_1547.jpg?itok=-6KjdNbD"
-                                        target="_blank" class="authority-badge badge-img">link</a></td>
+                                <td><span class="collocazione-text">ASMo, ASE, Carteggio di Particolari, b. 747</span></td>
+                                <td>Raffaella Pelizzari (contributore)</td>
+                                <td><a href="https://www.filodiritto.com/sites/default/files/styles/lg/public/2021-04/foto_3_asmo_ase_carteggio_di_particolari_b._747_particolare_di_una_lettera_di_brianda_de_luna_del_1547.jpg?itok=-6KjdNbD" target="_blank" class="authority-badge badge-img">link</a></td>
                                 <td>Università di Bologna</td>
                                 <td>
                                     Bologna
-                                    <a href="https://sws.geonames.org/3181928/" target="_blank"
-                                        class="authority-badge badge-geo">GeoNames</a>
+                                    <a href="https://sws.geonames.org/3181928/" target="_blank" class="authority-badge badge-geo">GeoNames</a>
                                 </td>
                                 <td><span class="tipo-badge">Archivio di Stato di Modena</span></td>
-                                <td><span class="desc-text">Nell'imminenza dell'arrivo delle due sorelle de Luna a
-                                        Ferrara,
-                                        Brianda rivolse numerose suppliche a Ercole II d'Este chiedendo la sua
-                                        mediazione.</span></td>
+                                <td><span class="desc-text">Lettera di Brianda de Luna al duca Ercole II d'Este nella quale richiede la sua mediazione nel contenzioso con la sorella, nell'imminenza della partenza da Venezia per Ferrara.</span></td>
+                                <td><img src="img/lettera-Branda.jpg" class="img-fluid" alt="Lettera di Brianda al duca Ercole II d'Este"></td>
                             </tr>
 
                             <!-- ⑩ Consolaçam -->
                             <tr>
-                                <td class="text-muted">10</td>
+                                <td class="text-muted">item10</td>
                                 <td><strong>Frontespizio Consolaçam ás tribulaçoens de Israel</strong></td>
                                 <td>
                                     Samuel Usque
-                                    <a href="http://viaf.org/viaf/29658025" target="_blank"
-                                        class="authority-badge badge-viaf">VIAF</a>
+                                    <a href="http://viaf.org/viaf/29658025" target="_blank" class="authority-badge badge-viaf">VIAF</a>
                                 </td>
                                 <td>—</td>
                                 <td><span class="tipo-badge">Riproduzione del frontespizio originale</span></td>
                                 <td>1553</td>
                                 <td>
                                     Ferrara
-                                    <a href="https://www.geonames.org/6542120/ferrara.html" target="_blank"
-                                        class="authority-badge badge-geo">GeoNames</a>
+                                    <a href="https://www.geonames.org/6542120/ferrara.html" target="_blank" class="authority-badge badge-geo">GeoNames</a>
                                 </td>
                                 <td><span class="collocazione-text">Non più esistente</span></td>
-                                <td>Raffaella Pelizzari</td>
-                                <td><a href="https://it.wikipedia.org/wiki/Samuel_Usque#/media/File:Consolasam_samuel_usque.jpg"
-                                        target="_blank" class="authority-badge badge-wiki">Wikipedia</a></td>
+                                <td>Raffaella Pelizzari (contributore)</td>
+                                <td><a href="https://it.wikipedia.org/wiki/Samuel_Usque#/media/File:Consolasam_samuel_usque.jpg" target="_blank" class="authority-badge badge-wiki">Wikipedia</a></td>
                                 <td>Università di Bologna</td>
                                 <td>
                                     Bologna
-                                    <a href="https://sws.geonames.org/3181928/" target="_blank"
-                                        class="authority-badge badge-geo">GeoNames</a>
+                                    <a href="https://sws.geonames.org/3181928/" target="_blank" class="authority-badge badge-geo">GeoNames</a>
                                 </td>
                                 <td><span class="tipo-badge">Public domain</span></td>
-                                <td><span class="desc-text">Riproduzione del frontespizio della prima edizione del
-                                        testo
-                                        dedicato a Gracia Nasi, definita la sesta via per la consolazione di
-                                        Israele.</span>
-                                </td>
+                                <td><span class="desc-text">Riproduzione del frontespizio della prima edizione del testo, andata perduta. Gracia Nasi, a cui l'opera è dedicata, è definita la sesta via per la consolazione di Israele.</span></td>
+                                <td><img src="img/Consolacam_samuel_usque.jpg" class="img-fluid" alt="Frontespizio Consolaçam"></td>
                             </tr>
 
                         </tbody>
                     </table>
                 </div>
             </main>
+        </div>
+    </div>
 
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <section>
+        <footer class="footer container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <ul class="list-unstyled">
+                        <li>Credits</li>
+                        <li>Licenze</li>
+                        <li>Metadati</li>
+                        <li>Link esterni</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <p class="mb-1">Un progetto di <mark>Raffaella Pelizzari</mark></p>
+                    <p class="mb-1">realizzato nell'ambito del corso di Digital Humanities</p>
+                    <p class="mb-1"><a href="http://www.unibo.it" target="_blank">Alma Mater studiorum - Università di Bologna</a></p>
+                </div>
+            </div>
+        </footer>
+        <div class="container-fluid bg-secondary text-white">
+            <p class="mb-0 pb-1 pt-1 text-center">© Copyright (c) 2026 by Raffaella Pelizzari</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

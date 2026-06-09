@@ -35,9 +35,10 @@
         <dcterms:spatial tipo="creazione">Ferrara</dcterms:spatial>
         <dcterms:spatial tipo="creazione" xsi:type="dcterms:URI" mp:authority="GeoNames">https://www.geonames.org/6542120/ferrara.html</dcterms:spatial>
 
-        <dc:type>Image</dc:type>
-        <dc:type>lettera manoscritta</dc:type>
+        <dc:type>Text</dc:type>
+        <dc:type>StillImage</dc:type>
 
+        <dc:format>text/plain</dc:format>
         <dc:format>image/jpeg</dc:format>
 
         <dcterms:medium>inchiostro su carta</dcterms:medium>
