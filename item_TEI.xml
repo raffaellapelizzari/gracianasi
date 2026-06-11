@@ -7,17 +7,32 @@
                 <author>Gracia Nasi</author>
                 <respStmt>
                     <name>Raffaella Pelizzari</name>
-                    <resp>Codifica del testo</resp>
+                    <resp>Codifica TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Alberto Palladini - Archivio di Stato di Modena</name>
+                    <resp>Digitalizzazione del manoscritto</resp>
                 </respStmt>
             </titleStmt>
             <extent>221 KB in UTF-8</extent>
+            <encodingDesc>
+                <projectDesc>
+                    <p>Codifica TEI di una lettera manoscritta realizzata nell'ambito del corso di Digital Humanities, Università di Bologna, a.a. 2025/2026.</p>
+                </projectDesc>
+                <editorialDecl>
+                    <p>Le formule retoriche del linguaggio epistolare sono marcate con <gi>seg type="formula"</gi> con i seguenti subtype:</p>
+                    <p>
+                        <val>captatio</val>: formula di captatio benevolentiae, usata per ingraziarsi il destinatario.</p>
+                    <p>
+                        <val>subscriptio</val>: formula finale di sottoscrizione.</p>
+                    <p>
+                        <val>titulatio</val>: titoli onorifici </p>
+                </editorialDecl>
+            </encodingDesc>
             <publicationStmt>
                 <publisher>Università di Bologna</publisher>
-                <availability>Courtesy of Ministero della Cultura-Archivio di Stato di Modena, Prot. n. 1451 del 23 giugno 2023, class.: 28.10.13/20.1.25.</availability>
+                <availability>Ministero della Cultura-Archivio di Stato di Modena, Prot. n. 1451 del 23 giugno 2023, class.: 28.10.13/20.1.25.</availability>
             </publicationStmt>
-            <notesStmt>
-                <note>Formato digitale della lettera di Gracia Nasi al duca Ercole II del 13 settembre 1549</note>
-            </notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
@@ -30,7 +45,7 @@
                     </msIdentifier>
                     <head>Lettera di Beatriz de Luna al duca Ercole II d'Este dal Boschetto del 13 settembre 1549</head>
                     <msContents>
-                        <p>Lettera autografa di Beatriz de Luna (Gracia Nasi) al duca Ercole II d'Este, datata 13 settembre 1549.</p>
+                        <p>Lettera autografa di Beatriz de Luna (Gracia Nasi) al duca Ercole II d'Este, datata 13 settembre 1549, in cui intercede presso il duca rispetto al decreto di espulsione dei sefarditi dalla città.</p>
                     </msContents>
                     <physDesc>
                         <additions>
@@ -38,7 +53,7 @@
                             1549 / 13 7bre
                             </ab>
                             <ab type="archivistNote" place="top-left" hand="#archivista2">
-                            Luny de
+                            Luny (de)
                             </ab>
                         </additions>
                         <handDesc>
@@ -51,6 +66,11 @@
                         </handDesc>
                     </physDesc>
                 </msDesc>
+                <bibl>
+                    <title>Doña Gracia Nasi: Between Diplomacy and Private Interests. Newly Discovered Documents and Letters Addressed to the Duke of Ferrara</title>
+                    <publisher>Jewish Quarterly Review. Volume 114, Number 4, Fall 2024. University of Pennsylvania Press</publisher>
+                    <ref target="https://muse.jhu.edu/article/944939/">MUSE</ref>
+                </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -60,9 +80,11 @@
                         <persName type="ebraico">Gracia Nasi</persName>
                         <persName type="sposata">Gracia Mendes</persName>
                         <persName type="battesimo">Beatriz de Luna</persName>
+                        <idno type="VIAF">http://viaf.org/viaf/54950110</idno>
                     </person>
                     <person xml:id="EE">
                         <persName>Ercole II d'Este</persName>
+                        <idno type="VIAF">http://viaf.org/viaf/62395237</idno>
                     </person>
                     <person xml:id="TG">
                         <persName>Thomaso Gomez</persName>
@@ -75,8 +97,12 @@
                 </place>
                 <place xml:id="Ferrara">
                     <placeName>Ferrara</placeName>
+                    <idno type="GeoNames">https://www.geonames.org/6542120/ferrara.html</idno>
                 </place>
             </listPlace>
+            <langUsage>
+                <language ident="it">Italiano</language>
+            </langUsage>
         </profileDesc>
     </teiHeader>
     <text>
@@ -84,89 +110,120 @@
             <div type="salute">
                 <head>
                     <rs type="persona" ref="#EE">
-                        <abbr>Ill.mo</abbr>
-                        <expan>Illustrissimo</expan> et <abbr>Ex.mo</abbr>
-                        <expan>Excellentissimo</expan> Sor mio <abbr>osser.mo</abbr>
-                        <expan>Osservatissimo</expan>
+                        <seg type="formula" subtype="titulatio">
+                            <choice>
+                                <abbr>Ill.mo</abbr>
+                                <expan>Illustrissimo</expan>
+                            </choice>
+                                 et
+                            <choice>
+                                <abbr>Ex.mo</abbr>
+                                <expan>Excellentissimo</expan>
+                            </choice>
+                                Sor mio
+                            <choice>
+                                <abbr>osser.mo</abbr>
+                                <expan>Osservatissimo</expan>
+                            </choice>
+                        </seg>
                     </rs>
                 </head>
             </div>
             <p>
                 <rs type="gruppo">Questi Portoghesi</rs> sonno venuti ad domandarmi aiuto per il commandamento rigoroso che
                 <rs type="persona" ref="#EE">
-                    <choice>
-                        <abbr>V.</abbr>
-                        <expan>Vostra</expan>
-                    </choice>
-                    <choice>
-                        <abbr>Ex.a</abbr>
-                        <expan>Excellentissima</expan>
-                    </choice>
-                </rs> ha concesso che si debbia fare per mandarli via della <placeName ref="#Ferrara">città</placeName>. Per l'amore di nostro Signore Iddio supplico
+                    <seg type="formula" subtype="titulatio">
+                        <choice>
+                            <abbr>V.</abbr>
+                            <expan>Vostra</expan>
+                        </choice>
+                        <choice>
+                            <abbr>Ex.a</abbr>
+                            <expan>Excellentissima</expan>
+                        </choice>
+                    </seg>
+                </rs> ha concesso che si debbia fare per mandarli via della <placeName ref="#Ferrara">città</placeName>. 
+                <seg type="formula" subtype="captatio">Per l'amore di nostro Signore Iddio</seg> supplico
                 <rs type="persona" ref="#EE">
-                    <choice>
-                        <abbr>V.</abbr>
-                        <expan>Vostra</expan>
-                    </choice>
-                    <choice>
-                        <abbr>Ex.a</abbr>
-                        <expan>Excellentissima</expan>
-                    </choice>
+                    <seg type="formula" subtype="titulatio">
+                        <choice>
+                            <abbr>V.</abbr>
+                            <expan>Vostra</expan>
+                        </choice>
+                        <choice>
+                            <abbr>Ex.a</abbr>
+                            <expan>Excellentissima</expan>
+                        </choice>
+                    </seg>
                 </rs> 
-                voglia usar con loro della sua solita clemenzia et benignità, et che sia contenta far soprastar la grida per che senza quella si ubedirà detto commandamento.</p>
+                voglia usar con loro della <seg type="formula" subtype="captatio"> sua solita clemenzia et benignità </seg>, et che sia contenta far soprastar la grida per che senza quella si ubedirà detto commandamento.</p>
             <p>Et voglia darli tempo et luogho dove si possano retirar securamente fino a tanto che la usi con loro di pietà, o veramente possano cercar in questo mezo, altro luogho dove andarsene. Et per questo effetto sarà il lattor della presente
                 <persName ref="#TG">Thomaso Gomez</persName>,
-                al quale prego humilmente 
+                al quale <seg type="formula" subtype="captatio"> prego humilmente </seg>
                 <rs type="persona" ref="#EE">
-                    <choice>
-                        <abbr>Ex.a</abbr>
-                        <expan>Excellentissima</expan>
-                    </choice>
-                    <choice>
-                        <abbr>V.</abbr>
-                        <expan>Vostra</expan>
-                    </choice>
+                    <seg type="formula" subtype="titulatio">
+                        <choice>
+                            <abbr>Ex.a</abbr>
+                            <expan>Excellentissima</expan>
+                        </choice>
+                        <choice>
+                            <abbr>V.</abbr>
+                            <expan>Vostra</expan>
+                        </choice>
+                    </seg>
                 </rs> 
                 voglia udirlo et dargli risposta prima che la grida si facia.</p>
             <div type="closer">
-                <p>Nostro Signore <rs type="persona" ref="#EE">la 
-                    <choice>
-                        <abbr>ill.ma</abbr>
-                        <expan>Illustrissima</expan>
-                    </choice>
+                <p>
+                    <seg type="formula" subtype="captatio">Nostro Signore <rs type="persona" ref="#EE">la 
+                        <seg type="formula" subtype="titulatio">
+                            <choice>
+                                <abbr>ill.ma</abbr>
+                                <expan>Illustrissima</expan>
+                            </choice>
                      et 
-                    <choice>
-                        <abbr>excell.ma</abbr>
-                        <expan>Excellentissima</expan>
-                    </choice> persona di 
-                    <choice>
-                        <abbr>V.</abbr>
-                        <expan>Vostra</expan>
-                    </choice>
-                    <choice>
-                        <abbr>Ex.cia</abbr>
-                        <expan>Excellentia</expan>
-                    </choice>
-                </rs> 
-                augmenti et prosperi.</p>
+                            <choice>
+                                <abbr>excell.ma</abbr>
+                                <expan>Excellentissima</expan>
+                            </choice> persona di 
+                            <choice>
+                                <abbr>V.</abbr>
+                                <expan>Vostra</expan>
+                            </choice>
+                            <choice>
+                                <abbr>Ex.cia</abbr>
+                                <expan>Excellentia</expan>
+                            </choice>
+                        </seg>
+                    </rs> 
+                augmenti et prosperi.
+                </seg>
+            </p>
             <dateline>Dil
                 <placeName ref="#Boschetto">Boschetto</placeName> 
             addi 
                 <date when="1549-09-13">XIII setembre M D XL IX</date>
             </dateline>
-            <p>umil oratriçe de<rs type="persona" ref="#EE">
-                <choice>
-                    <abbr>V.</abbr>
-                    <expan>Vostra</expan>
-                </choice>
-                <choice>
-                    <abbr>Ex.cia</abbr>
-                    <expan>Excellentia</expan>
-                </choice>
-            </rs>
-            <persName ref="#GN">Beatriz de Luna</persName>
-        </p>
-    </div>
-</body>
+            <p>
+                <seg type="formula" subtype="subscriptio">umil oratriçe de
+                    <rs type="persona" ref="#EE">
+                        <seg type="formula" subtype="titulatio">
+                            <choice>
+                                <abbr>V.</abbr>
+                                <expan>Vostra</expan>
+                            </choice>
+                            <choice>
+                                <abbr>Ex.cia</abbr>
+                                <expan>Excellentia</expan>
+                            </choice>
+                        </seg>
+                    </rs>
+                </seg>
+                <signed>
+                    <persName ref="#GN">Beatriz de Luna</persName>
+                </signed>
+            </p>
+        </div>
+    </body>
 </text>
 </TEI>

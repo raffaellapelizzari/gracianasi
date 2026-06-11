@@ -7,17 +7,17 @@
     <mp:item>
         <dc:title>Lettera di Gracia Nasi al duca Ercole II d'Este</dc:title>
 
-        <!-- Autore con riconciliazione VIAF -->
         <dc:creator>Beatriz de Luna (alias Gracia Nasi)</dc:creator>
         <dcterms:creator xsi:type="dcterms:URI" mp:authority="VIAF">http://viaf.org/viaf/54950110</dcterms:creator>
 
-        <!-- Destinatario con riconciliazione VIAF -->
         <dc:audience>Ercole II d'Este</dc:audience>
         <dc:audience xsi:type="dcterms:URI" mp:authority="VIAF">http://viaf.org/viaf/62395237</dc:audience>
 
         <dc:subject>conversos</dc:subject>
         <dc:subject>ebrei sefarditi</dc:subject>
         <dc:subject>Ferrara</dc:subject>
+        <dc:subject>Portoghesi</dc:subject>
+        <dc:subject>marrani</dc:subject>
 
         <dc:description>Lettera scritta da Doña Gracia al duca Ercole II d'Este che illustra
             come la comunità dei conversos cercò attivamente il suo aiuto quando venne
@@ -31,7 +31,6 @@
 
         <dc:date xsi:type="dcterms:W3CDTF">1549-09-13</dc:date>
 
-        <!-- Luogo con riconciliazione GeoNames -->
         <dcterms:spatial tipo="creazione">Ferrara</dcterms:spatial>
         <dcterms:spatial tipo="creazione" xsi:type="dcterms:URI" mp:authority="GeoNames">https://www.geonames.org/6542120/ferrara.html</dcterms:spatial>
 
@@ -49,7 +48,6 @@
 
         <dc:language xsi:type="dcterms:RFC4646">it</dc:language>
 
-        <!-- Copertura con riconciliazione GeoNames -->
         <dc:coverage>Bologna</dc:coverage>
         <dc:coverage xsi:type="dcterms:URI" mp:authority="GeoNames">https://sws.geonames.org/3181928/</dc:coverage>
 
