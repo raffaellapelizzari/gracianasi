@@ -4,10 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Dublin Core Metadata -->
+
     <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
     <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/">
-
     <meta name="DC.title" content="La señora: Gracia Nasi">
     <meta name="DC.creator" content="Raffaella Pelizzari">
     <meta name="DC.subject" content="Gracia Nasi, conversos, ebrei sefarditi, Ferrara, marrani">
@@ -16,22 +15,26 @@
     <meta name="DC.publisher" content="Università di Bologna">
     <meta name="DC.date" content="2026">
     <meta name="DC.type" content="InteractiveResource">
-    <meta name="DC.format" content="text/html">
+    <meta name="DC.format" content="HTML/CSS/XML/JS">
+    <link rel="DC.Identifier" href="https://www.raffaellapelizzari.github.io/gracianasi">
     <meta name="DC.language" content="it">
     <meta name="DC.rights" content="Open access">
-    <meta name="description" content="Il sito è un progetto realizzato all'interno del corso di Digital Humanities
-    dell'Università di Bologna. Raccoglie tutte le occorrenze relative all'ebrea sefardita Gracia Nasi.">
-    <title>La se&ntilde;ora: Gracia Nasi</title>
+    <link rel="DC.Coverage" content="Bologna" href="https://sws.geonames.org/3181928/">
+
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+    <!-- CSS di Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+
+    <title>La se&ntilde;ora: Gracia Nasi</title>
 </head>
 
 <body>
     <header class="main-header sticky-top bg-dark bg-opacity-75">
         <div class="logo">
-        La se&ntilde;ora: Gracia Nasi
+            La se&ntilde;ora: Gracia Nasi
         </div>
         <nav class="navbar">
             <ul>
@@ -45,7 +48,6 @@
         </nav>
     </header>
 
-
     <section class="hero-image">
         <div class="hero-text">
             <h1>Il progetto</h1>
@@ -53,14 +55,16 @@
         </div>
     </section>
     <div id="progetto" class="progetto">
-       <p class="text-danger fs-4">Il progetto</p>
+        <p class="text-danger fs-4">Il progetto</p>
         <p>Il progetto nasce come tentativo di ricostruire la vita, l'identità e gli spostamenti di una donna
-            poliedrica che è stata così importante per la storia degli <mark>ebrei sefarditi</mark><a href="https://lccn.loc.gov/sh85120106"><sup>LOC</sup></a> in età moderna da essere
+            poliedrica che è stata così importante per la storia degli ebrei <mark>sefarditi</mark><a
+                href="https://lccn.loc.gov/sh85120106"><sup>LOC</sup></a> in età moderna da essere
             stata definita "la sesta via per la consolazione di Israele".</p>
         <p>Seguire la vita e gli spostamenti di Gracia Nasi presenta diverse criticità: i molteplici nomi con i quali
             era conosciuta (Gracia Nasi, Gracia Mendes, Beatriz de Luna); l'omonimia con la nipote (Gracia Nasi detta
             "La Chica"); la scarsità delle fonti a causa delle persecuzioni subite dai sefarditi.</p>
-        <p>Il sito è navigabile attraverso il catalogo che raccoglie tutte le fonti individuate, oppure attraverso un elenco di persone correlate a Gracia Nasi, una mappa dei
+        <p>Il sito è navigabile attraverso il catalogo che raccoglie tutte le fonti individuate, oppure attraverso un
+            elenco di persone correlate a Gracia Nasi, una mappa dei
             suoi spostamenti e una linea del tempo.</p>
         <p>Questo progetto è realizzato nell'ambito del corso di Digital humanities dell'Università di Bologna...<a
                 href="#placeholder">continua a leggere</a></p>
@@ -74,8 +78,10 @@
                     <div class="card-body">
                         <h6><a href="catalogo.html" class="stretched-link text-decoration-none text-dark">CATALOGO</a>
                         </h6>
-                        <p>Il catalogo raccoglie tutte le testimonianze (fonti documentarie e iconografiche, pubblicazioni, media, ecc.) relative alla
-                            figura di Gracia Nasi. Gli items sono filtrabili per categoria e ad ognuno è associata una scheda contenente metadati descrittivi</p>
+                        <p>Il catalogo raccoglie tutte le testimonianze (fonti documentarie e iconografiche,
+                            pubblicazioni, media, ecc.) relative alla
+                            figura di Gracia Nasi. Gli items sono filtrabili per categoria e ad ognuno è associata una
+                            scheda contenente metadati descrittivi</p>
                     </div>
                 </div>
             </div>
@@ -85,7 +91,10 @@
                         style="height: 200px; object-fit: cover;">
                     <div class="card-body">
                         <h6><a href="#" class="stretched-link text-decoration-none text-dark">PERSONE</a></h6>
-                        <p>Attraverso la navigazione per persone, è possibile visualizzare le fonti filtrandole in base alla persona a cui si riferiscono: può trattarsi del mittente oppure del destinatario di una lettera, di una persona che viene citata in un documento, del dedicatario di un'opera commemorativa, ecc.  </p>
+                        <p>Attraverso la navigazione per persone, è possibile visualizzare le fonti filtrandole in base
+                            alla persona a cui si riferiscono: può trattarsi del mittente oppure del destinatario di una
+                            lettera, di una persona che viene citata in un documento, del dedicatario di un'opera
+                            commemorativa, ecc. </p>
                     </div>
                 </div>
             </div>
@@ -95,7 +104,8 @@
                     <div class="card-body">
                         <h6><a href="#mappa" class="stretched-link text-decoration-none text-dark">MAPPA</a></h6>
                         <p>La mappa cartografica interattiva consente di tracciare l'itinerario di Gracia Nasi
-                            attraverso le varie nazioni che la accolsero, evidenziando le variazioni del suo nome in base al grado di
+                            attraverso le varie nazioni che la accolsero, evidenziando le variazioni del suo nome in
+                            base al grado di
                             tolleranza religiosa del paese di destinazione e alla possibilità di manifestare la propria
                             fede ebraica.</p>
                     </div>
@@ -107,16 +117,19 @@
                         style="height: 200px; object-fit: cover;">
                     <div class="card-body">
                         <h6><a href="#" class="stretched-link text-decoration-none text-dark">TIMELINE</a></h6>
-                        <p>È possibile navigare i contenuti anche attraverso una linea del tempo interattiva nella quale sono inserite le lettere di cui
-                            Gracia Nasi era mittente o destinataria e quelle che fanno riferimento a lei, nonchè le altre fonti in cui
+                        <p>È possibile navigare i contenuti anche attraverso una linea del tempo interattiva nella quale
+                            sono inserite le lettere di cui
+                            Gracia Nasi era mittente o destinataria e quelle che fanno riferimento a lei, nonchè le
+                            altre fonti in cui
                             ricorre il suo nome (es. testamenti e altri atti notarili).</p>
                     </div>
                 </div>
             </div>
         </div>
         <iframe id="mappa"
-            src="https://uploads.knightlab.com/storymapjs/5f4515d0530c7d8f589837993f8225eb/gracia-nasi/index.html" alt="mappa degli spostamenti di Gracia Nasi"
-            frameborder="0" width="100%" height="800"></iframe>
+            src="https://uploads.knightlab.com/storymapjs/5f4515d0530c7d8f589837993f8225eb/gracia-nasi/index.html"
+            alt="mappa degli spostamenti di Gracia Nasi" frameborder="0" width="100%" height="800">
+        </iframe>
     </section>
     <section>
         <footer class="footer container-fluid">
@@ -137,11 +150,11 @@
                 </div>
             </div>
         </footer>
-        <!-- copyright -->
         <div class="container-fluid bg-secondary text-white">
             <p class="mb-0 pb-1 pt-1 text-center">© Copyright (c) 2026 by Raffaella Pelizzari</p>
         </div>
     </section>
+    <!-- Javascript di Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
