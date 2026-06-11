@@ -1,3 +1,15 @@
+/* regole generali */
+
+/* Serve a mantenere gli elementi del sito sulla stessa riga */
+* {
+  box-sizing: border-box;
+}
+
+/* Forza la pagina ad occupare tutto lo schermo anche quando c'è poco testo */
+
+body, html {
+    height: 100%;
+}
 /* Formattazione*/
 
 h1 {
@@ -15,6 +27,7 @@ p {
   font-weight: 300;
 }
 
+
 /* Link */
 
 a:link {
@@ -29,11 +42,6 @@ a:visited {
 a:hover {
   color: crimson;
   text-decoration: underline;
-}
-
-/* Serve a cambiare il modo in cui il browser calcola la larghezza (width) e l'altezza (height) degli elementi, */
-* {
-  box-sizing: border-box;
 }
 
 /* Bottoni */
@@ -83,13 +91,8 @@ a:hover {
 .btn-danger:active {
     color: #fff !important;
 }
-/* Forza la pagina ad occupare tutto lo schermo anche quando c'è poco testo */
 
-body, html {
-    height: 100%;
-}
-
-/* The hero image - Componente HowTo */
+/* The hero image */
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/gracianasi.jpg");
   height: 100%;
@@ -183,7 +186,6 @@ body, html {
 
 .navbar a:hover {
   color: red;
-  /* Cambia colore quando passi sopra */
 }
 
 /* sezione progetto */
@@ -226,25 +228,23 @@ ul.breadcrumb {
   list-style: none;
 }
 
-/* Display list items side by side */
+/* Mostra i link in riga */
 ul.breadcrumb li {
   display: inline;
   font-size: 18px;
 }
 
-/* Add a slash symbol (/) before/behind each list item */
+/* Aggiunge un / tra un elemento e l'altro */
 ul.breadcrumb li+li:before {
   padding: 8px;
   color: black;
   content: "/\00a0";
 }
 
-/* Add a color to all links inside the list */
 ul.breadcrumb li a {
   color: crimson; text-decoration: none;
 }
 
-/* Add a color on mouse-over */
 ul.breadcrumb li a:hover {
   color: darkred; text-decoration: underline;
 }
@@ -300,10 +300,7 @@ ul.breadcrumb li a:hover {
     border-radius: 2px;
     cursor: default;
 }
-.formula-cortesia {
-    background-color: #cebde5;
-    border-bottom: 2px solid #5d107b;
-    padding: 0 2px;
-    border-radius: 2px;
+abbr[title] {
     cursor: default;
+    text-decoration: none;
 }
