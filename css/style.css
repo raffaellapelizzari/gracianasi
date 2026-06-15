@@ -1,6 +1,6 @@
 /* regole generali */
 
-/* Serve a mantenere gli elementi del sito sulla stessa riga */
+/* Regola CSS per ridimensionare tutti gli elementi allo stesso modo */
 * {
   box-sizing: border-box;
 }
@@ -13,7 +13,7 @@ body, html {
 /* Formattazione*/
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 56px;
   margin-bottom: 10px;
 }
 
@@ -26,7 +26,6 @@ p {
   font-size: 18px;
   font-weight: 300;
 }
-
 
 /* Link */
 
@@ -127,28 +126,19 @@ a:hover {
 .main-header {
   display: flex;
   justify-content: space-between;
-  /* Spinge logo a sinistra e menu a destra */
   align-items: center;
-  /* Centra gli elementi verticalmente */
   padding: 20px 5%;
-  /* Spazio interno */
   background: rgba(255, 255, 255, 0.1);
-  /* Sfondo leggerissimo */
   backdrop-filter: blur(10px);
-  /* Effetto sfocatura (vetro satinato) */
   position: fixed;
-  /* Rimane in alto mentre scorri, componente HowTo */
   transition: top 0.3s;
-  /* Transition effect when sliding down (and up) */
   top: 0;
   width: 100%;
   z-index: 1000;
-  /* Lo tiene sopra l'immagine di sfondo */
   box-sizing: border-box;
 }
 
 .logo {
-  /*Titolo della navbar*/
   font-family: Tahoma, Verdana, sans-serif;
   font-size: 30px;
   font-weight: bold;
@@ -158,7 +148,6 @@ a:hover {
 }
 
 .navbar ul {
-  /*Menu della navbar*/
   font-family: Tahoma, Verdana, sans-serif;
   font-size: 16px;
   font-weight: bold;
@@ -166,14 +155,12 @@ a:hover {
   text-shadow: 2px 2px 4px #000000;
   display: flex;
   list-style: none;
-  /* Toglie i pallini del menu */
   margin: 0;
   padding: 0;
 }
 
 .navbar li {
   margin-left: 30px;
-  /* Distanza tra le voci del menu */
 }
 
 .navbar a {
@@ -181,14 +168,11 @@ a:hover {
   color: white;
   font-weight: 500;
   transition: color 0.3s;
-  /* Animazione al passaggio del mouse */
 }
 
 .navbar a:hover {
   color: red;
 }
-
-/* sezione progetto */
 
 .progetto {
   font-family: Tahoma, Verdana, sans-serif;
@@ -229,13 +213,11 @@ ul.breadcrumb {
   list-style: none;
 }
 
-/* Mostra i link in riga */
 ul.breadcrumb li {
   display: inline;
   font-size: 18px;
 }
 
-/* Aggiunge un / tra un elemento e l'altro */
 ul.breadcrumb li+li:before {
   padding: 8px;
   color: black;
@@ -257,19 +239,19 @@ ul.breadcrumb li a:hover {
     text-overflow: ellipsis;
 }
 .table-dati td, .table-dati th {
-    font-size: 0.75rem;
+    font-size: 12px;
 }
 .letter-box {
     height: 700px;
-    overflow-y: auto;
     border: 1px solid #dee2e6;
-    padding: 1rem;
-    border-radius: 0.375rem;
+    padding: 16px;
+    border-radius: 6px;
     background-color: #fff;
     font-family: Georgia, serif;
     line-height: 1.8;
 }
 /* Markup */
+
 .persona {
     background-color: #fff3cd;
     border-bottom: 2px solid #ffc107;
