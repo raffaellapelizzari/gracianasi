@@ -8,6 +8,6 @@ Dublin Core (DC) e Dublin Core Terms (DCTERMS) per la descrizione degli item, im
 
 TEI (Text Encoding Initiative) per la codifica filologica delle fonti documentarie (item_TEI.xml), con marcatura di persone, luoghi, date, abbreviazioni e note archivistiche.
 
-Progetto realizzato da Raffaella Pelizzari nell'ambito del corso di Digital Humanities, Alma Mater Studiorum — Università di Bologna, a.a. 2025/2026.
+Progetto realizzato da Raffaella Pelizzari nell'ambito del corso di Digital Humanities e patrimonio culturale, Alma Mater Studiorum — Università di Bologna, a.a. 2025/2026.
 
 🔗 raffaellapelizzari.github.io/gracianasi
