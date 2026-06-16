@@ -7,17 +7,18 @@
     <mp:item>
         <dc:title>Lettera di Gracia Nasi al duca Ercole II d'Este</dc:title>
 
-        <dc:creator>Beatriz de Luna (alias Gracia Nasi)</dc:creator>
+        <dc:creator tipo="risorsa originale">Beatriz de Luna (alias Gracia Nasi)</dc:creator>
         <dcterms:creator xsi:type="dcterms:URI" mp:authority="VIAF">http://viaf.org/viaf/54950110</dcterms:creator>
+        <dc:creator tipo="scheda risorsa">Raffaella Pelizzari</dc:creator>
 
         <dc:audience>Ercole II d'Este</dc:audience>
         <dc:audience xsi:type="dcterms:URI" mp:authority="VIAF">http://viaf.org/viaf/62395237</dc:audience>
 
-        <dc:subject>conversos</dc:subject>
-        <dc:subject>ebrei sefarditi</dc:subject>
-        <dc:subject>Ferrara</dc:subject>
-        <dc:subject>Portoghesi</dc:subject>
-        <dc:subject>marrani</dc:subject>
+        <dc:subject>conversos, criptogiudei, ebrei sefarditi, Ferrara, Portoghesi, marrani</dc:subject>
+        <dcterms:subject xsi:type="dcterms:LCHS">http://id.loc.gov/authorities/subjects/sh85081413</dcterms:subject>        
+        <dcterms:subject xsi:type="dcterms:LCHS">http://id.loc.gov/authorities/subjects/sh85120106</dcterms:subject>
+        <dcterms:subject xsi:type="dcterms:URI">https://www.geonames.org/6542120</dc:subject>
+        <dcterms:subject xsi:type="dcterms:URI">https://thes.bncf.firenze.sbn.it/termine.php?id=7877</dcterms:subject>
 
         <dc:description>Lettera scritta da Doña Gracia al duca Ercole II d'Este che illustra
             come la comunità dei conversos cercò attivamente il suo aiuto quando venne
@@ -26,35 +27,42 @@
             di ignorare il decreto e di concedere alla comunità dei conversos tempo
             sufficiente per lasciare la città.</dc:description>
 
-        <dc:publisher>Università di Bologna</dc:publisher>
-        <dc:contributor>Raffaella Pelizzari</dc:contributor>
+        <dc:publisher tipo="risorsa originale">Archivio di Stato di Modena</dc:publisher>
+        <dc:publisher xsi:type="dcterms:URI">https://asmo.cultura.gov.it/home</dc:publisher>
+        <dc:publisher tipo="risorsa digitale">MUSE</dc:publisher>
+        <dc:publisher xsi:type="dcterms:URI">https://muse.jhu.edu/</dc:publisher>
+        <dc:publisher tipo="scheda risorsa">Università di Bologna</dc:publisher>
+        <dc:publisher xsi:type="dcterms:URI">https://www.unibo.it/it</dc:publisher>
 
         <dc:date xsi:type="dcterms:W3CDTF">1549-09-13</dc:date>
 
         <dcterms:spatial tipo="creazione">Ferrara</dcterms:spatial>
-        <dcterms:spatial tipo="creazione" xsi:type="dcterms:URI" mp:authority="GeoNames">https://www.geonames.org/6542120/ferrara.html</dcterms:spatial>
+        <dcterms:spatial tipo="creazione" xsi:type="dcterms:URI" mp:authority="GeoNames">https://www.geonames.org/6542120</dcterms:spatial>
+        <dcterms:temporal xsi:type="dcterms:W3CDTF">1549</dcterms:temporal>
+        
+        <dc:type tipo="risorsa originale">Text</dc:type>
+        <dc:type tipo="risorsa digitale">StillImage</dc:type>
 
-        <dc:type>Text</dc:type>
-        <dc:type>StillImage</dc:type>
+        <dc:format tipo="risorsa originale">text/plain</dc:format>
+        <dc:format tipo="risorsa digitale">image/jpeg</dc:format>
+        <dcterms:extent>219 Kbytes</dcterms:extent>
 
-        <dc:format>text/plain</dc:format>
-        <dc:format>image/jpeg</dc:format>
+        <dcterms:medium tipo="risorsa originale">inchiostro su carta</dcterms:medium>
 
-        <dcterms:medium>inchiostro su carta</dcterms:medium>
+        <dc:identifier tipo="risorsa digitale">https://muse.jhu.edu/article/944939/image/appimg01</dc:identifier>
+        <dc:identifier tipo="scheda risorsa">https://raffaellapelizzari.github.io/gracianasi/item.html</dc:identifier>
 
-        <dc:identifier>https://muse.jhu.edu/article/944939/image/appimg01</dc:identifier>
-
-        <dc:source>ASMo, ASE, Cancelleria, Carteggio di Particolari, b. 749, fasc «Luny»</dc:source>
+        <dc:source tipo="risorsa originale">ASMo, ASE, Cancelleria, Carteggio di Particolari, b. 749, fasc «Luny»</dc:source>
 
         <dc:language xsi:type="dcterms:RFC4646">it</dc:language>
 
-        <dc:coverage>Bologna</dc:coverage>
-        <dc:coverage xsi:type="dcterms:URI" mp:authority="GeoNames">https://sws.geonames.org/3181928/</dc:coverage>
+        <dc:coverage>Ferrara</dc:coverage>
+        <dc:coverage xsi:type="dcterms:URI" mp:authority="GeoNames">https://www.geonames.org/6542120</dc:coverage>
 
-        <dc:rights>Open access</dc:rights>
+        <dc:rights>Archivio di Stato di Modena</dc:rights>
+        <dc:rights xsi:type="dcterms:URI">https://asmo.cultura.gov.it/home</dc:rights>
 
         <dcterms:provenance>Archivio di Stato di Modena</dcterms:provenance>
         <dcterms:provenance xsi:type="dcterms:URI">https://asmo.cultura.gov.it/home</dcterms:provenance>
     </mp:item>
-
 </mp:collezione>
