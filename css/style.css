@@ -246,10 +246,6 @@ ul.breadcrumb li a:hover {
 }
 
 /* lettera */
-.legenda-lettera {
-  font-size:x-small;
-  font-weight:400
-}
 .letter-box {
   height: 700px;
   border: 1px solid #dee2e6;
@@ -261,13 +257,16 @@ ul.breadcrumb li a:hover {
 }
 
 /* legenda */
+.legenda-lettera {
+  font-size:x-small;
+  font-weight:400;
+}
 .persona {
   background-color: #fff3cd;
   border-bottom: 2px solid #ffc107;
   padding: 0 2px;
   border-radius: 2px;
   cursor: default;
-  font-size
 }
 
 .luogo {
